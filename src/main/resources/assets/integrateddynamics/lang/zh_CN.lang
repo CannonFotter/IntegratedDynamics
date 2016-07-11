@@ -7,7 +7,7 @@ general.integrateddynamics.error.noNetwork=未找到可用的网络
 # Gui
 gui.integrateddynamics.button.save=保存
 gui.integrateddynamics.button.rename=重命名
-gui.integrateddynamics.partsettings.updateInterval=频率
+gui.integrateddynamics.partsettings.updateInterval=更新频率
 gui.integrateddynamics.part.properties=预设:
 gui.integrateddynamics.logicprogrammer.filter=过滤
 gui.integrateddynamics.waila.partConfig=部件信息
@@ -33,18 +33,18 @@ tile.blocks.integrateddynamics.proxy.name=代理器
 tile.blocks.integrateddynamics.proxy.info=创建一个变量的引用
 tile.blocks.integrateddynamics.materializer.name=复制器
 tile.blocks.integrateddynamics.materializer.info=复制变量的值作为新的变量
-tile.blocks.integrateddynamics.menrilLog.name=Menril Log
-tile.blocks.integrateddynamics.menrilLeaves.name=Menril Leaves
-tile.blocks.integrateddynamics.menrilSapling.name=Menril Sapling
-tile.blocks.integrateddynamics.menrilPlanks.name=Menril Plank
-tile.blocks.integrateddynamics.crystalizedMenrilBlock.name=Block of Crystalized Menril
-tile.blocks.integrateddynamics.crystalizedMenrilBrick.name=Crystalized Menril Brick
-tile.blocks.integrateddynamics.blockMenrilResin.name=Menril Resin
+tile.blocks.integrateddynamics.menrilLog.name=Menril原木
+tile.blocks.integrateddynamics.menrilLeaves.name=Menril树叶
+tile.blocks.integrateddynamics.menrilSapling.name=Menril树苗
+tile.blocks.integrateddynamics.menrilPlanks.name=Menril木板
+tile.blocks.integrateddynamics.crystalizedMenrilBlock.name=结晶的Menril块
+tile.blocks.integrateddynamics.crystalizedMenrilBrick.name=结晶的Menril砖块
+tile.blocks.integrateddynamics.blockMenrilResin.name=Menril树脂
 tile.blocks.integrateddynamics.dryingBasin.name=烘干池
 tile.blocks.integrateddynamics.dryingBasin.info=烘干物品和流体
 tile.blocks.integrateddynamics.squeezer.name=挤压机
 tile.blocks.integrateddynamics.squeezer.info=用跳跃来挤压,弄平,粉碎
-tile.blocks.integrateddynamics.menrilTorch.name=Menril Torch
+tile.blocks.integrateddynamics.menrilTorch.name=Menril火把
 
 # Items
 item.items.integrateddynamics.general.id=§e§lID: §r%s
@@ -57,15 +57,15 @@ item.items.integrateddynamics.labeller.info=命名你的变量卡,也可在逻�
 item.items.integrateddynamics.labeller.button.write=写入
 item.items.integrateddynamics.facade.name=伪装
 item.items.integrateddynamics.facade.info=在工作台结合一个方块
-item.items.integrateddynamics.bucketMenrilResin.name=Menril Resin Bucket
-item.items.integrateddynamics.crystalizedMenrilChunk.name=Crystalized Menril Chunk
+item.items.integrateddynamics.bucketMenrilResin.name=Menril树脂桶
+item.items.integrateddynamics.crystalizedMenrilChunk.name=结晶的Menril块
 item.items.integrateddynamics.variableTransformer.output.name=Output Variable Transformer
 item.items.integrateddynamics.variableTransformer.input.name=Input Variable Transformer
-item.items.integrateddynamics.menrilBerries.name=Menril Berries
-item.items.integrateddynamics.menrilBerries.info=Tasty and illuminating
+item.items.integrateddynamics.menrilBerries.name=Menril浆果
+item.items.integrateddynamics.menrilBerries.info=又好吃又耀眼
 
 # Fluids
-fluid.fluids.integrateddynamics.menrilresin=Menril Resin
+fluid.fluids.integrateddynamics.menrilresin=Menril树脂
 
 # Biomes
 biomes.integrateddynamics.biomeMeneglin=Meneglin
@@ -323,6 +323,7 @@ aspect.aspects.integrateddynamics.read.integer.fluid.totalcapacity.name=流体�
 aspect.aspects.integrateddynamics.read.integer.fluid.totalcapacity.info=当前水槽的流体存储量上限
 aspect.aspects.integrateddynamics.read.integer.fluid.tanks.name=水槽量
 aspect.aspects.integrateddynamics.read.integer.fluid.tanks.info=目标位置找到的水槽总量
+
 aspect.aspects.integrateddynamics.read.double.fluid.fillratio.name=水槽装满程度
 aspect.aspects.integrateddynamics.read.double.fluid.fillratio.info=当前位置流体量除以容量
 
@@ -836,6 +837,7 @@ aspect.aspects.integrateddynamics.read.integer.rf.capacity.name=RF最高存量
 aspect.aspects.integrateddynamics.read.integer.rf.capacity.info=目标当前允许的最高RF存量
 aspect.aspects.integrateddynamics.read.double.rf.fillratio.name=RF填充比例
 aspect.aspects.integrateddynamics.read.double.rf.fillratio.info=目标当前RF数量占其上限的百分比
+
 ## Operators
 operator.operators.integrateddynamics.itemstack.isrfcontainer.name=是否RF容器
 operator.operators.integrateddynamics.itemstack.isrfcontainer.info=给定物品能否存储RF
